@@ -1,0 +1,53 @@
+.registration-page {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+.page-container {
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 16px 0px;
+}
+h1 {
+  color: #ea580c;
+}
+input {
+  padding: 5px;
+  border-radius: 5px;
+  border: 2px solid #303030;
+  width: 230px;
+}
+label {
+  font-size: 15px;
+  color: #505058;
+}
+.submit-button {
+  display: flex;
+  justify-content: center;
+}
+button {
+  background-color: #ea580c;
+  color: #ffffff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+p {
+  color: #ff0b37;
+}
+.submitted-para {
+  color: #475569;
+  font-size: 18px;
+}
+.submitted-successfully-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
